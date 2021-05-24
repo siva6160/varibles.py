@@ -1,0 +1,9 @@
+def isgreatest(n1,n2,n3):
+    if n1>n2 and n1>n3:
+        print("n1 is biggest")
+    if n2>n1 and n2>n3:
+         print("n2 is biggest")
+    if n3>n1 and n3>n2:
+         print("n3 is biggest")
+n1,n2,n3=map(int,input().split())
+isgreatest(n1,n2,n3)
