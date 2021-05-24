@@ -1,0 +1,11 @@
+import math as m
+num1,num2=map(int,input().split())
+print(num1+num2)
+print(num1-num2)
+print(num1/num2)
+print(num1//num2)
+print(num1*num2)
+print(num1**num2)
+print(num1%num2)
+print(m.pow(2,3))
+print(m.ceil(num1))
